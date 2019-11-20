@@ -19,7 +19,7 @@ public class MessageListenerImpl implements MessageListener
 		System.out.println("Message received as: "+msg.get(0));
 		
 		SimpleMailMessage message = new SimpleMailMessage();
-		message.setFrom("****@gmail.com");
+		message.setFrom("dhanappa94@gmail.com");
 		message.setTo(msg.get(1));
 		message.setSubject(msg.get(2));
 		message.setText(msg.get(3));

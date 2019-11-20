@@ -40,7 +40,7 @@ public class Utility
 		
 		try 
 		{
-			helper.setFrom("salinabodale73@gmail.com");
+			helper.setFrom("dhanappa94@gmail.com");
 		    helper.setTo(toEmail);
 		    helper.setText(body);
 		    helper.setSubject(subject);
@@ -62,7 +62,8 @@ public class Utility
 		
 		try 
 		{
-			helper.setFrom("*****@gmail.com");
+			helper.setFrom(""
+					+ "@gmail.com");
 		    helper.setTo(emailid);
 		    helper.setText(link);
 		    helper.setSubject(subject);
@@ -83,7 +84,7 @@ public class Utility
 		
 		try 
 		{
-			helper.setFrom("*****@gmail.com");
+			helper.setFrom("dhanappa94@gmail.com");
 		    helper.setTo(emailid);
 		    helper.setText(link);
 		    helper.setSubject(subject);

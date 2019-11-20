@@ -41,17 +41,12 @@ public class UserTest {
 	public void testUserRegistration() {
 		User user = new User();
 		Userdto userDto=new Userdto();
-		user.setFirstName("Mugdha");
-		user.setLastName("Nagale");
-		user.setMobileNum("9876543215");
-		user.setEmailId("mugdhanagale07@gmail.com");
-		user.setPassword("Salina@1234");
+		user.setFirstName("Dhananjay");
+		user.setLastName("Dj");
+		user.setMobileNum("8308345886");
+		user.setEmailId("*****@gmail.com");
+		user.setPassword("Dhanu@1234");
 		userRepo.save(user);
-//		when(modelMapper.map(userDto, User.class)).thenReturn(user);
-//		when(userRepo.findByEmailId(user.getEmailId())).thenReturn(Optional.ofNullable(user));
-//		when(passwordEncoder.encode(userDto.getPassword())).thenReturn(user.getPassword());
-//		when(userRepo.save(user)).thenReturn(user);
-//		Response response = userServiceImpl.register(userDto);
 		assertEquals(200, response.getStatusCode());
 	}
 	
